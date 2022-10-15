@@ -10,7 +10,6 @@ public class Main {
 
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
-
             if (arr[i] > max) {
                 max = arr[i];
             }
@@ -28,7 +27,6 @@ public class Main {
         System.out.println("Task3");
         System.out.printf("Средняя сумма трат за месяц составила " + average + " рублей\n");
         System.out.println("\nTask4");
-
 
         char[] reverseFullName = new char[]{'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int j = reverseFullName.length - 1; j >= 0; j--) {
