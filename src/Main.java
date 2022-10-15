@@ -1,19 +1,13 @@
 
 public class Main {
-    public static void main(String[] args) {
-        generateRandomArray();
-    }
 
-    public static int[] generateRandomArray() {
-        java.util.Random random = new java.util.Random();
-        int[] arr = new int[30];
+    public static void main(String[] args) {
+        int[] arr = generateRandomArray();
         int sum = 0;
         int max = -10_000;
         int min = 500_000;
         double average = 0;
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = random.nextInt(100_000) + 100_000;
-        }
+
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
 
@@ -25,6 +19,7 @@ public class Main {
             }
         }
         average = (double) sum / 30;
+
         System.out.println("Task1");
         System.out.println("Сумма трат за месяц составила " + sum + " рублей\n");
         System.out.println("Task2");
@@ -39,9 +34,16 @@ public class Main {
         for (int j = reverseFullName.length - 1; j >= 0; j--) {
             System.out.print(reverseFullName[j]);
         }
-        return arr;
     }
 
+    public static int[] generateRandomArray() {
+        java.util.Random random = new java.util.Random();
+        int[] arr = new int[30];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(100_000) + 100_000;
+        }
+        return arr;
+    }
 }
 
 

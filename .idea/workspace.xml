@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47dae10-6e14-429b-a9c2-cfe8fcc2d4f7" name="Changes" comment="Сделала отдельный цикл на вычисления sum. max. min, average">
+    <list default="true" id="f47dae10-6e14-429b-a9c2-cfe8fcc2d4f7" name="Changes" comment="Вынесла подсчёт средней суммы за цикл.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665731362659</updated>
       <workItem from="1665731364078" duration="4314000" />
-      <workItem from="1665823066927" duration="4852000" />
+      <workItem from="1665823066927" duration="6655000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1665767913183</created>
@@ -61,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665832664985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Вынесла подсчёт средней суммы за цикл.">
+      <created>1665834053677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665834053677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +90,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="The HW is done" />
     <MESSAGE value="Сделала отдельный цикл на вычисления sum. max. min, average" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделала отдельный цикл на вычисления sum. max. min, average" />
+    <MESSAGE value="Вынесла подсчёт средней суммы за цикл." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вынесла подсчёт средней суммы за цикл." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
