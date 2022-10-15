@@ -23,8 +23,8 @@ public class Main {
             if (arr[i] < min) {
                 min = arr[i];
             }
-            average = (double) sum / 30;
         }
+        average = (double) sum / 30;
         System.out.println("Task1");
         System.out.println("Сумма трат за месяц составила " + sum + " рублей\n");
         System.out.println("Task2");
