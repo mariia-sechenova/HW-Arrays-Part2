@@ -13,6 +13,8 @@ public class Main {
         double average = 0;
         for (int i = 0; i < arr.length; i++) {
             arr[i] = random.nextInt(100_000) + 100_000;
+        }
+        for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
 
             if (arr[i] > max) {
