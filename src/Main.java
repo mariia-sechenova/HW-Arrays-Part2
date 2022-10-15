@@ -18,7 +18,6 @@ public class Main {
             }
         }
         average = (double) sum / 30;
-
         System.out.println("Task1");
         System.out.println("Сумма трат за месяц составила " + sum + " рублей\n");
         System.out.println("Task2");
